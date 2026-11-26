@@ -1,0 +1,613 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#FFF0F5">
+    <meta name="description" content="Personal portfolio and biography of Anisa Xanzany.">
+    <title>Anisa Xanzany | My Personal Space</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background Decorations -->
+    <div class="background-decoration decoration-one"></div>
+    <div class="background-decoration decoration-two"></div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-heart">♡</span>
+                Anisa.
+            </a>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#quotes">Quotes</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false">
+                ☰
+            </button>
+
+        </div>
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <header class="hero" id="home">
+
+        <div class="hero-content">
+
+            <div class="hero-badge">
+                <span class="sparkle">✦</span>
+                New Chapter, Better Me
+                <span class="sparkle">✦</span>
+            </div>
+
+            <p class="hero-small">WELCOME TO MY LITTLE WORLD</p>
+
+            <h1>
+                Hello, I'm <span>Anisa</span>
+                <br>
+                <i>Nice to meet you!</i>
+            </h1>
+
+            <p class="hero-description">
+                A little space to share my story, dreams,
+                memories, and everything that makes me who I am.
+                Growing, glowing, and becoming a better version of myself.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">
+                    Discover Me ♡
+                </a>
+
+                <a href="#contact" class="btn btn-outline">
+                    Let's Connect
+                </a>
+            </div>
+
+            <div class="hero-bottom-text">
+                ✿ Living softly, dreaming big ✿
+            </div>
+
+        </div>
+
+        <div class="hero-decoration heart-one">♡</div>
+        <div class="hero-decoration heart-two">✧</div>
+        <div class="hero-decoration heart-three">✿</div>
+
+    </header>
+
+
+    <!-- ABOUT / PROFILE -->
+    <section class="section about-section" id="about">
+
+        <div class="section-heading">
+            <span class="section-label">GET TO KNOW ME</span>
+            <h2>About <span>Me</span></h2>
+            <p>A little introduction about the girl behind this website.</p>
+        </div>
+
+        <div class="about-container">
+
+            <!-- PROFILE PHOTO -->
+            <div class="profile-wrapper">
+
+                <div class="profile-frame">
+
+                    <img
+                        src="foto.jpg"
+                        alt="Foto profil Anisa"
+                        class="profile-image"
+                        onerror="this.hidden=true; this.nextElementSibling.hidden=false;"
+                    >
+
+                    <div class="profile-fallback" hidden>
+                        AX
+                    </div>
+
+                </div>
+
+                <div class="profile-caption">
+                    <span>♡</span> Just being myself
+                </div>
+
+                <div class="profile-decoration">✧</div>
+
+            </div>
+
+
+            <!-- BIODATA CARD -->
+            <div class="about-card">
+
+                <div class="about-greeting">
+                    <span class="greeting-icon">♡</span>
+                    <span>A LITTLE ABOUT ME</span>
+                </div>
+
+                <h3>Hi, lovely people!</h3>
+
+                <p class="about-description">
+                    My name is Anisa Xanzany. I'm someone who believes
+                    that every day is a new opportunity to learn,
+                    grow, and create beautiful memories.
+
+                    I love discovering new things, enjoying little
+                    moments, and appreciating the journey of life.
+                    This website is my little corner of the internet
+                    where I can express myself.
+                </p>
+
+                <div class="biodata-grid">
+
+                    <div class="biodata-item">
+                        <span class="biodata-icon">♡</span>
+                        <div>
+                            <small>Nama Lengkap</small>
+                            <strong>Anisa Xanzany</strong>
+                        </div>
+                    </div>
+
+                    <div class="biodata-item">
+                        <span class="biodata-icon">✿</span>
+                        <div>
+                            <small>Kelas</small>
+                            <strong>Isi kelas kamu</strong>
+                        </div>
+                    </div>
+
+                    <div class="biodata-item">
+                        <span class="biodata-icon">⌂</span>
+                        <div>
+                            <small>Tempat & Tanggal Lahir</small>
+                            <strong>Isi tempat, tanggal lahir</strong>
+                        </div>
+                    </div>
+
+                    <div class="biodata-item">
+                        <span class="biodata-icon">♡</span>
+                        <div>
+                            <small>Hobi</small>
+                            <strong>Music, Writing, Exploring</strong>
+                        </div>
+                    </div>
+
+                    <div class="biodata-item">
+                        <span class="biodata-icon">☁</span>
+                        <div>
+                            <small>Current Vibe</small>
+                            <strong>Healing & Growing</strong>
+                        </div>
+                    </div>
+
+                    <div class="biodata-item">
+                        <span class="biodata-icon">♫</span>
+                        <div>
+                            <small>Lagu Favorit</small>
+                            <strong>Heaven - Bryan Adams</strong>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- QUOTES SECTION -->
+    <section class="section quotes-section" id="quotes">
+
+        <div class="section-heading">
+            <span class="section-label">A REMINDER FOR MYSELF</span>
+            <h2>My Healing <span>Era</span></h2>
+            <p>Becoming happier, stronger, and more in love with life.</p>
+        </div>
+
+        <div class="quotes-grid">
+
+            <article class="quote-card">
+                <div class="quote-symbol">“</div>
+
+                <p>
+                    You deserve the same love, kindness,
+                    and happiness that you keep giving to others.
+                </p>
+
+                <div class="quote-bottom">
+                    <span>♡ SELF LOVE</span>
+                    <span>01</span>
+                </div>
+            </article>
+
+
+            <article class="quote-card quote-highlight">
+                <div class="quote-symbol">“</div>
+
+                <p>
+                    Sometimes losing something is just life
+                    making room for something more beautiful.
+                </p>
+
+                <div class="quote-bottom">
+                    <span>✿ NEW BEGINNING</span>
+                    <span>02</span>
+                </div>
+            </article>
+
+
+            <article class="quote-card">
+                <div class="quote-symbol">“</div>
+
+                <p>
+                    My happiness is no longer waiting for
+                    someone else. I'm creating it myself.
+                </p>
+
+                <div class="quote-bottom">
+                    <span>♡ HAPPY LIFE</span>
+                    <span>03</span>
+                </div>
+            </article>
+
+
+            <article class="quote-card">
+                <div class="quote-symbol">“</div>
+
+                <p>
+                    I am blooming at my own pace,
+                    and that is more than enough.
+                </p>
+
+                <div class="quote-bottom">
+                    <span>✧ GROWTH ERA</span>
+                    <span>04</span>
+                </div>
+            </article>
+
+        </div>
+
+        <div class="healing-note">
+            <span>♡</span>
+            <p>
+                Dear me, keep going. The best chapters
+                of your story are still waiting to be written.
+            </p>
+            <span>♡</span>
+        </div>
+
+    </section>
+
+
+    <!-- EDUCATION SECTION -->
+    <section class="section education-section" id="education">
+
+        <div class="section-heading">
+            <span class="section-label">MY JOURNEY</span>
+            <h2>My <span>Education</span></h2>
+            <p>Every step is part of my learning journey.</p>
+        </div>
+
+        <div class="education-card">
+
+            <div class="table-wrapper">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Jenjang</th>
+                            <th>Nama Sekolah</th>
+                            <th>Tahun</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>01</td>
+                            <td>TK</td>
+                            <td>Nama TK Kamu</td>
+                            <td>2014 - 2015</td>
+                        </tr>
+
+                        <tr>
+                            <td>02</td>
+                            <td>SD</td>
+                            <td>Nama SD Kamu</td>
+                            <td>2015 - 2021</td>
+                        </tr>
+
+                        <tr>
+                            <td>03</td>
+                            <td>SMP</td>
+                            <td>Nama SMP Kamu</td>
+                            <td>2021 - 2024</td>
+                        </tr>
+
+                        <tr>
+                            <td>04</td>
+                            <td>SMA/SMK</td>
+                            <td>Nama Sekolah Kamu</td>
+                            <td>2024 - Sekarang</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <p class="table-note">
+                ✿ Education is not just about grades,
+                but also about growing into a better person.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+
+        <div class="contact-card">
+
+            <span class="section-label">LET'S BE CONNECTED</span>
+
+            <h2>Find Me <span>Here!</span></h2>
+
+            <p>
+                Thank you for visiting my little world.
+                Let's connect and share positive energy!
+            </p>
+
+            <div class="social-links">
+
+                <a
+                    href="https://www.instagram.com/USERNAME/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-btn instagram"
+                >
+                    <span>◎</span>
+                    Instagram
+                    <span>↗</span>
+                </a>
+
+                <a
+                    href="https://www.tiktok.com/@USERNAME"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-btn tiktok"
+                >
+                    <span>♪</span>
+                    TikTok
+                    <span>↗</span>
+                </a>
+
+                <a
+                    href="https://github.com/USERNAME"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-btn github"
+                >
+                    <span>⌘</span>
+                    GitHub
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+            <div class="contact-decoration">
+                Made with love and a little pink magic ♡
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-logo">Anisa. ♡</div>
+
+        <p>
+            © <span id="currentYear"></span>
+            Anisa Xanzany. All Rights Reserved.
+        </p>
+
+        <p class="footer-small">
+            Designed with ♡, dreams, and pink pastel.
+        </p>
+
+    </footer>
+
+
+    <!-- FLOATING MUSIC PLAYER -->
+    <div class="music-player">
+
+        <audio id="backgroundMusic" loop preload="none">
+            <source src="heaven.mp3" type="audio/mpeg">
+            Browser kamu tidak mendukung pemutar audio.
+        </audio>
+
+        <button
+            class="music-button"
+            id="musicButton"
+            aria-label="Putar musik"
+            aria-pressed="false"
+            title="Play / Pause Music"
+        >
+            <span class="record-icon" id="recordIcon">♫</span>
+        </button>
+
+        <div class="music-tooltip" id="musicTooltip">
+            Play my favorite song ♡
+        </div>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+    <script>
+
+        // AUTOMATIC YEAR
+        document.getElementById("currentYear").textContent =
+            new Date().getFullYear();
+
+
+        // MOBILE NAVIGATION
+        const menuToggle = document.getElementById("menuToggle");
+        const navLinks = document.getElementById("navLinks");
+
+        menuToggle.addEventListener("click", () => {
+
+            const isOpen = navLinks.classList.toggle("active");
+
+            menuToggle.setAttribute("aria-expanded", isOpen);
+
+            menuToggle.textContent = isOpen ? "✕" : "☰";
+
+        });
+
+        // Close menu after clicking a navigation link
+        document.querySelectorAll(".nav-links a").forEach(link => {
+
+            link.addEventListener("click", () => {
+
+                navLinks.classList.remove("active");
+
+                menuToggle.textContent = "☰";
+
+                menuToggle.setAttribute("aria-expanded", "false");
+
+            });
+
+        });
+
+
+        // MUSIC PLAYER
+        const music = document.getElementById("backgroundMusic");
+        const musicButton = document.getElementById("musicButton");
+        const recordIcon = document.getElementById("recordIcon");
+        const musicTooltip = document.getElementById("musicTooltip");
+
+        let musicStarted = false;
+
+        async function playMusic() {
+
+            try {
+
+                await music.play();
+
+                musicStarted = true;
+
+                musicButton.classList.add("playing");
+
+                musicButton.setAttribute("aria-pressed", "true");
+                musicButton.setAttribute("aria-label", "Jeda musik");
+
+                musicTooltip.textContent = "Now Playing: Heaven ♡";
+
+            } catch (error) {
+
+                console.log("Autoplay belum diizinkan browser.");
+
+                musicButton.classList.remove("playing");
+
+            }
+
+        }
+
+        function pauseMusic() {
+
+            music.pause();
+
+            musicButton.classList.remove("playing");
+
+            musicButton.setAttribute("aria-pressed", "false");
+            musicButton.setAttribute("aria-label", "Putar musik");
+
+            musicTooltip.textContent = "Play my favorite song ♡";
+
+        }
+
+        // Attempt autoplay when the page opens
+        window.addEventListener("load", () => {
+
+            playMusic();
+
+        });
+
+        // Try again on the first user interaction if autoplay was blocked
+        function firstInteraction() {
+
+            if (!musicStarted) {
+                playMusic();
+            }
+
+            document.removeEventListener("pointerdown", firstInteraction);
+            document.removeEventListener("keydown", firstInteraction);
+
+        }
+
+        document.addEventListener("pointerdown", firstInteraction);
+        document.addEventListener("keydown", firstInteraction);
+
+        // Floating music button
+        musicButton.addEventListener("click", () => {
+
+            if (music.paused) {
+
+                playMusic();
+
+            } else {
+
+                pauseMusic();
+
+            }
+
+        });
+
+        // Keep player appearance synchronized with audio
+        music.addEventListener("pause", () => {
+
+            musicButton.classList.remove("playing");
+
+        });
+
+        music.addEventListener("play", () => {
+
+            musicButton.classList.add("playing");
+            musicStarted = true;
+
+        });
+
+    </script>
+
+</body>
+</html>
